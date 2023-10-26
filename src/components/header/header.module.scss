@@ -1,0 +1,21 @@
+@import '../../core/var.scss';
+
+.site-title {
+  font-family: $primary-title;
+  font-size: 1rem;
+  color: $main-clr;
+}
+
+.nav {
+  background-color: $white;
+  &-link {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    &-item {
+      padding-right: 2rem;
+    }
+  }
+}
+
+
