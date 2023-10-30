@@ -1,13 +1,14 @@
 import * as React from 'react';
 import "@fontsource/rancho";
 import Layout from '../components/layout/layout';
+import Hero from './hero/hero';
 
 const Index = () => {
   return (
     <>
     <div>
       <Layout>
-        <h1>Hello World</h1>
+        <Hero />
       </Layout>
       </div>
     </>

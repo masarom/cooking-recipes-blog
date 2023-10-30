@@ -1,8 +1,7 @@
-import * as React from 'react'
+import * as React from 'react';
 import {
   mainBody,
-  container,
-  heading
+  container
 } from './layout.module.scss';
 import Header from '../header/header';
 
@@ -12,7 +11,6 @@ const Layout = ({ pageTitle, children }) => {
     <div className={mainBody}>
       <Header />
       <main>
-        <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
     </div>
